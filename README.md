@@ -17,7 +17,7 @@ Start the spring consumer:
 
 When a message is consumed, it is printed on `stdout`
 
-Start the producer to send 10 message to topic: /s1:t1
+Start the producer to send 10 message to topic: `/s1:t1`
 
 	java -cp target/MapRSpringKafka-1.0-SNAPSHOT-jar-with-dependencies.jar com.mapr.example.SendTest	
 
